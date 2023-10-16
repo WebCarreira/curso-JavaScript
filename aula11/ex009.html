@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalodade</title>
+</head>
+<body>
+    <h1>A sua nacionalidade</h1>
+    Em que país você vive? <input type="text" name="txtnac" id="txtnac">
+    <input type="button" value="Verificar" onclick="ver()">
+    <div id="naci">
+
+    </div>
+    
+    <script>
+        
+        
+        function ver() {
+            var pais = document.querySelector('input#txtnac')
+            var nac = document.querySelector('div#naci')
+            var texto = String(pais.value)
+            nac.innerHTML = `Você vive em ${texto}`
+
+            if (texto == `Brasil`) {
+                nac.innerHTML += '<p>Você é Brasileiro</p>'
+            } else {
+                nac.innerHTML += '<p>Você é Estrangeiro</p>'
+            }
+        }
+    </script>
+</body>
+</html>
