@@ -1,5 +1,5 @@
 body{
-    background: rgb(70, 142, 236);
+    background-color: rgb(70, 142, 236);
     font: normal 15pt Arial;
 }
 
@@ -21,4 +21,17 @@ footer{
     color: white;
     text-align: center;
     font-style: italic;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+div{
+    text-align: center;
+    padding: 8px;
 }
