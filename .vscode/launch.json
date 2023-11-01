@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Iniciar o Chrome em relação a localhost",
-            "url": "http://localhost:8080",
+            "url": "file:///D:/Diogo/OneDrive/Visual%20Studio/Projectos/curso-JavaScript/exercicios/ex003/index.html",
             "webRoot": "${workspaceFolder}"
         }
     ]
